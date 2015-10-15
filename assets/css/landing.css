@@ -1,0 +1,21 @@
+html {
+  background: url(../../assets/images/wallpapers/mountain-valley.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body: {
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  transform: translateY(-50%);
+  width: 25%;
+  margin: auto;
+  -webkit-filter: drop-shadow( 0 0 10px rgba(0, 0, 0, .5) );
+  filter: drop-shadow( 0 0 10px rgba(0, 0, 0, .5) ); /* Same syntax as box-shadow */
+}
